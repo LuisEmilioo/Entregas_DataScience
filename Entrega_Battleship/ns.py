@@ -14,7 +14,7 @@ class Tablero:
                     fila_visible.append("□")
                 else:
                     fila_visible.append(celda)
-            print(f"{i} " + " ".join(fila_visible))
+            print(f"{i} " + " ".join(fila_visible))# f según internet es para formatear y permite insertar variable
 
     def colocar_barco(self, fila, columna):#muestra tu barco
         self.tablero[fila][columna] = "B"
